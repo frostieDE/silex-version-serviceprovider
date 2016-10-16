@@ -1,0 +1,22 @@
+{
+    "name": "frostiede/silex-version-serviceprovider",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcel Marnitz",
+            "email": "marcelmarnitz@googlemail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "pimple/pimple": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "FrostieDE\\Silex\\": "src/FrostieDE/Silex"
+        }
+    }
+}
